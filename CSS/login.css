@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Urbanist', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Nunito', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Urbanist', sans-serif;
+}
+p,a,ul,li,label{
+    font-family: 'Nunito', sans-serif; 
+}
+
+#loginheader{
+    background-color: #F0F2F5;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    height: 640px;
+}
+
+.headerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.facebookabbr .facebookabbr_image {position: relative;left: -17px;margin-top: 0;}
+
+.facebookabbr .facebookabbr_image img {
+    width: 40%;
+}
+
+.facebookabbr {
+    width: 40%;
+    margin-top: -250px;
+}
+
+.facebookabbr_text h2 {
+    font-weight: 500;
+}
+
+.facebookloginWrapper {
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    box-shadow: 0px 4px 9px 0px #0000002e;
+}
+
+.facebookloginForm form input {
+    width: 97%;
+    outline: none;
+    border: 1px solid #80808096;
+    border-radius: 3px;
+    padding: 15px 4px;
+    font-size: 14px;
+    cursor: text;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.facebookloginForm {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.facebookloginForm form button {
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background: #1776F2;
+    color: white;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.forgotpassword a {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.forgotpassword {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #80808082;
+    padding: 15px 0px;
+    width: 100%;
+}
+.createAccount {
+    width: 50%;
+    background: #42B72A;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 12px 0px;
+}
+
+.createAccount a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.createpage {
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.facebookloginBox {
+    width: 35%;
+}
+
+.createpage p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+.facebookloginForm form button:active {
+    background: #3434f3;
+}
+.createAccount:active {
+    background: #008000bf;
+}
+
+/* footer style start */
+
+.containerr {
+    width: 60%;
+    margin: auto;
+}
+.footerWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.language {
+    margin: 60px 0px 15px 0px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #80808061;
+}
+
+.language ul {
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+}
+
+.language ul li {
+    margin-right: 17px;
+}
+
+.language ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: gray !important;
+}
+
+.otherlink ul {
+    list-style: none;
+    display: flex;
+    font-size: 13px;
+    flex-wrap: wrap;
+}
+
+.otherlink ul li {
+    margin-right: 28px;
+    margin-bottom: 8px;
+}
+
+.otherlink ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: gray !important;
+}
+
+.containerr p {
+    font-size: 11px;
+}
+.language ul li button {
+    width: 35px;
+    font-weight: 900;
+}
+form#signup_input_box p a {
+    text-decoration: none;
+    color: #114ac0;
+}
+
